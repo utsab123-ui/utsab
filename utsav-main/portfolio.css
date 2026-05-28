@@ -1,0 +1,364 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+
+
+
+
+}
+
+.headerboxc {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.headerbox {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 42, 42);
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+ul {
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+    font-size: larger;
+    color: white;
+
+    font-variant: small-caps;
+
+
+
+}
+
+.box {
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(45deg, red, blue);
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+
+
+
+
+
+
+}
+
+.box ul {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    font-variant: small-caps;
+    
+    opacity: 0;
+
+
+
+
+
+
+}
+
+.box ul li {
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+li:hover {
+    cursor: pointer;
+}
+
+
+.one {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 25px;
+
+
+
+}
+
+span {
+    color: white;
+
+}
+
+.one span:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    display: inline-block;
+
+}
+
+.section {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.section1 {
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(gray, black);
+    justify-items: center;
+
+
+
+
+    align-content: center;
+
+}
+
+
+.section2 {
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(gray, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    color: white;
+
+    margin-top: 40px;
+    margin-right: 20px;
+
+
+
+}
+
+.section1 p {
+    color: white;
+    margin-left: 80px;
+
+
+
+
+
+
+
+}
+
+button {
+    height: 60px;
+    width: 20%;
+    background-color: brown;
+    margin-bottom: 100px;
+    border-style: none;
+    font-variant: small-caps;
+}
+
+.section1 button:hover {
+    background-color: brown;
+}
+
+
+
+.image {
+    height: 300px;
+    width: 300px;
+    background-color: #161616;
+    border-radius: 50%;
+    margin-right: 100px;
+    border: 5px solid gray;
+
+
+
+
+
+
+
+}
+
+.image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.button {
+    height: 30vh;
+    width: 100%;
+    margin-right: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+
+}
+
+.section4 button {
+    height: 40px;
+    width: 160px;
+    background-color: gray;
+    border-style: none;
+    margin-right: 20px;
+    font-variant: small-caps;
+    margin-top: 30px;
+
+
+
+
+
+
+
+
+}
+
+.section4 button:hover {
+    cursor: pointer;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+.section1 button {
+    height: 50px;
+    width: 300px;
+    background-color: gray;
+    border-style: none;
+    margin-left: 220px;
+    margin-top: 20px;
+
+
+
+
+}
+
+.section1 button:hover {
+    cursor: pointer;
+}
+
+.section3 {
+
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+
+
+
+
+
+}
+
+.section4 {
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.button {
+    height: 25vh;
+    width: 100%;
+
+
+
+}
+
+.cards {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+
+}
+
+
+
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+
+
+    border: 4px brown solid;
+
+}
+
+.card img {
+
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card button {
+    height: 40px;
+    width: 110px;
+
+    text-align: center;
+    font-size: larger;
+    color: antiquewhite;
+    font-variant: small-caps;
+
+
+    margin-top: 20px;
+    margin-left: 100px;
+}
